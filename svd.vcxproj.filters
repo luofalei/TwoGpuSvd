@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="secular_equation.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="main.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="sequanceEquation.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="GpuMultiplyMetrix.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test_alglib.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="print_metrix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="multiMetrixCpu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="first_svd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="devide_metrix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="caculate_metrix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\alglibinternal.cpp">
+      <Filter>includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\alglibmisc.cpp">
+      <Filter>includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\ap.cpp">
+      <Filter>includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\dataanalysis.cpp">
+      <Filter>includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\diffequations.cpp">
+      <Filter>includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\fasttransforms.cpp">
+      <Filter>includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\integration.cpp">
+      <Filter>includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\interpolation.cpp">
+      <Filter>includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\optimization.cpp">
+      <Filter>includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\solvers.cpp">
+      <Filter>includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\specialfunctions.cpp">
+      <Filter>includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\statistics.cpp">
+      <Filter>includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\linalg.cpp">
+      <Filter>includes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test_alglib.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="print_metrix.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Myvector.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="multiMetrixCpu.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="first_svd.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="devide_metrix.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="caculate_metrix.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\src\alglibinternal.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\src\alglibmisc.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\src\ap.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\src\dataanalysis.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\src\diffequations.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\src\fasttransforms.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\src\integration.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\src\interpolation.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\src\optimization.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\src\solvers.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\src\specialfunctions.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\src\statistics.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\src\stdafx.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\src\linalg.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{e1bc04eb-0386-4daf-ac5f-7d1b6c64f015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes">
+      <UniqueIdentifier>{d12ef901-bf17-4ce9-ae06-3bc6e87db358}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="secular_equation.cuh">
+      <Filter>src</Filter>
+    </None>
+    <None Include="sequanceEquation.cuh">
+      <Filter>src</Filter>
+    </None>
+    <None Include="sequanceEquation2.cuh">
+      <Filter>src</Filter>
+    </None>
+    <None Include="sequanceEquation2.cu">
+      <Filter>src</Filter>
+    </None>
+    <None Include="GpuMultiplyMetrix.cuh">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
