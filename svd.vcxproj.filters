@@ -74,25 +74,25 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="test_alglib.h">
+    <ClInclude Include=".\source\test_alglib.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="print_metrix.h">
+    <ClInclude Include=".\source\print_metrix.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="Myvector.h">
+    <ClInclude Include=".\source\Myvector.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="multiMetrixCpu.h">
+    <ClInclude Include=".\source\multiMetrixCpu.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="first_svd.h">
+    <ClInclude Include=".\source\first_svd.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="devide_metrix.h">
+    <ClInclude Include=".\source\devide_metrix.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="caculate_metrix.h">
+    <ClInclude Include=".\source\caculate_metrix.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\cpp\src\alglibinternal.h">
@@ -147,19 +147,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="secular_equation.cuh">
+    <None Include=".\source\secular_equation.cuh">
       <Filter>src</Filter>
     </None>
-    <None Include="sequanceEquation.cuh">
+    <None Include=".\source\sequanceEquation.cuh">
       <Filter>src</Filter>
     </None>
-    <None Include="sequanceEquation2.cuh">
+    <None Include=".\source\sequanceEquation2.cuh">
       <Filter>src</Filter>
     </None>
-    <None Include="sequanceEquation2.cu">
+    <None Include="s.\source\equanceEquation2.cu">
       <Filter>src</Filter>
     </None>
-    <None Include="GpuMultiplyMetrix.cuh">
+    <None Include=".\source\GpuMultiplyMetrix.cuh">
       <Filter>src</Filter>
     </None>
   </ItemGroup>

@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <CudaCompile Include="GpuMultiplyMetrix.cu" />
-    <CudaCompile Include="main.cu" />
-    <CudaCompile Include="secular_equation.cu" />
-    <CudaCompile Include="sequanceEquation.cu" />
+    <CudaCompile Include=".\source\GpuMultiplyMetrix.cu" />
+    <CudaCompile Include=".\source\main.cu" />
+    <CudaCompile Include=".\source\secular_equation.cu" />
+    <CudaCompile Include=".\source\sequanceEquation.cu" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\cpp\src\alglibinternal.cpp" />
@@ -38,12 +38,12 @@
     <ClCompile Include="..\cpp\src\solvers.cpp" />
     <ClCompile Include="..\cpp\src\specialfunctions.cpp" />
     <ClCompile Include="..\cpp\src\statistics.cpp" />
-    <ClCompile Include="caculate_metrix.cpp" />
-    <ClCompile Include="devide_metrix.cpp" />
-    <ClCompile Include="first_svd.cpp" />
-    <ClCompile Include="multiMetrixCpu.cpp" />
-    <ClCompile Include="print_metrix.cpp" />
-    <ClCompile Include="test_alglib.cpp" />
+    <ClCompile Include=".\source\caculate_metrix.cpp" />
+    <ClCompile Include=".\source\devide_metrix.cpp" />
+    <ClCompile Include=".\source\first_svd.cpp" />
+    <ClCompile Include=".\source\multiMetrixCpu.cpp" />
+    <ClCompile Include=".\source\print_metrix.cpp" />
+    <ClCompile Include=".\source\test_alglib.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\cpp\src\alglibinternal.h" />
@@ -60,20 +60,20 @@
     <ClInclude Include="..\cpp\src\specialfunctions.h" />
     <ClInclude Include="..\cpp\src\statistics.h" />
     <ClInclude Include="..\cpp\src\stdafx.h" />
-    <ClInclude Include="caculate_metrix.h" />
-    <ClInclude Include="devide_metrix.h" />
-    <ClInclude Include="first_svd.h" />
-    <ClInclude Include="multiMetrixCpu.h" />
-    <ClInclude Include="Myvector.h" />
-    <ClInclude Include="print_metrix.h" />
-    <ClInclude Include="test_alglib.h" />
+    <ClInclude Include=".\source\caculate_metrix.h" />
+    <ClInclude Include=".\source\devide_metrix.h" />
+    <ClInclude Include=".\source\first_svd.h" />
+    <ClInclude Include=".\source\multiMetrixCpu.h" />
+    <ClInclude Include=".\source\Myvector.h" />
+    <ClInclude Include=".\source\print_metrix.h" />
+    <ClInclude Include=".\source\test_alglib.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="GpuMultiplyMetrix.cuh" />
-    <None Include="secular_equation.cuh" />
-    <None Include="sequanceEquation.cuh" />
-    <None Include="sequanceEquation2.cu" />
-    <None Include="sequanceEquation2.cuh" />
+    <None Include=".\source\GpuMultiplyMetrix.cuh" />
+    <None Include=".\source\secular_equation.cuh" />
+    <None Include=".\source\sequanceEquation.cuh" />
+    <None Include=".\source\sequanceEquation2.cu" />
+    <None Include=".\source\sequanceEquation2.cuh" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9C348420-FEFC-4D44-9613-0F51DEE9F917}</ProjectGuid>
